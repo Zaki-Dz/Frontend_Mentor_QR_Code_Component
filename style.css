@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: roboto;
+	background-color: #d5e1ef;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.card {
+	max-width: 320px;
+	background-color: white;
+	border-radius: 20px;
+	overflow: hidden;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	gap: 20px;
+	padding-bottom: 40px;
+}
+
+.card img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.card h3 {
+	font-weight: bold;
+	color: #24344b;
+}
+
+.card p {
+	font-size: 14px;
+	color: #868a93;
+}
